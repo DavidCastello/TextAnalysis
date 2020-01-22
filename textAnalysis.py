@@ -6,7 +6,7 @@ import pyspark
 import random
 import re
 import os.path
-sc = pyspark.SparkContext(master="local[1]", appName="PEC1_dcastellot")
+sc = pyspark.SparkContext(master="local", appName="myApp")
 
 ## CARGAMOS NUESTRO TEXTO Y LIMPIAMOS
 
